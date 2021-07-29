@@ -8,13 +8,13 @@ Using this app you can:
 * add drivers to cars
 * track your cars as a driver
 
-### Implementation details and technologies
+### Implementation details
 Project based on famous 3-layered architecture:
 1. Data access layer (DAO)
 1. Application layer (service)
 1. Presentation layer (controllers)
 
-Technologies:
+### Technologies:
 * Apache Tomcat (v9.0.50)
 * MySQL
 * JDBC
@@ -31,5 +31,4 @@ Technologies:
 1. Create a schema by using the script from resources/init_db.sql in MySQL Workbench
 1. In the /util/ConnectionUtil.java change the URL, USERNAME and PASSWORD properties to the ones you specified when installing MySQL or you can use the ones that are already present
 1. After starting tomcat go to http://localhost:your port that you specified while configuring tomcat, click on "Register" to add a new driver.
-
-Also, if you want to use logger change full path in log4j.xml file 
+1. Also, if you want to use logger change full path in log4j.xml file 

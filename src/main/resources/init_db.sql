@@ -1,4 +1,5 @@
 CREATE SCHEMA `taxi_service` DEFAULT CHARACTER SET utf8 ;
+use `taxi_service`;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
