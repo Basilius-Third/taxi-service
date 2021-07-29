@@ -31,3 +31,5 @@ Technologies:
 1. Create a schema by using the script from resources/init_db.sql in MySQL Workbench
 1. In the /util/ConnectionUtil.java change the URL, USERNAME and PASSWORD properties to the ones you specified when installing MySQL or you can use the ones that are already present
 1. After starting tomcat go to http://localhost:your port that you specified while configuring tomcat, click on "Register" to add a new driver.
+
+Also, if you want to use logger change full path in log4j.xml file 
