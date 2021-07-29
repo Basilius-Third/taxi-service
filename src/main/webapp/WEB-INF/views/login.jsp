@@ -10,7 +10,7 @@
 <form method="post" id="login_page" action="${pageContext.request.contextPath}/login"></form>
 <h1 class="table_dark">Login page</h1>
 <h3 class="table_dark" style="color:red">${errorMsg}</h3>
-<table border="1" class="table_dark">
+<table class="table_dark">
   <tr>
     <th>Enter login</th>
     <th>Enter password</th>

@@ -10,7 +10,7 @@
 <body>
 <form method="post" id="manufacturer" action="${pageContext.request.contextPath}/manufacturers/add"></form>
 <h1 class="table_dark">Add manufacturer:</h1>
-<table border="1" class="table_dark">
+<table class="table_dark">
     <tr>
         <th>Name</th>
         <th>Country</th>
