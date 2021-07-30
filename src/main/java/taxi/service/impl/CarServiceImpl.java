@@ -1,4 +1,4 @@
-package taxi.service;
+package taxi.service.impl;
 
 import java.util.List;
 import org.apache.logging.log4j.LogManager;
@@ -8,6 +8,7 @@ import taxi.lib.Inject;
 import taxi.lib.Service;
 import taxi.model.Car;
 import taxi.model.Driver;
+import taxi.service.CarService;
 
 @Service
 public class CarServiceImpl implements CarService {
